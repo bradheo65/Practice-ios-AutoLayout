@@ -39,6 +39,7 @@ final class ViewController: UIViewController {
     var descriptionTextView: UITextView = {
         let textView = UITextView()
         textView.translatesAutoresizingMaskIntoConstraints = false
+        textView.backgroundColor = .secondarySystemBackground
         
         return textView
     }()
